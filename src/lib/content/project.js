@@ -12,9 +12,21 @@ export default class Project {
 			const yearA = a.data.year;
 			const yearB = b.data.year;
 
+			// Primary sort: year (desc)
 			if (yearA > yearB) return -1;
 			if (yearA < yearB) return 1;
 
+			// If same year, allow an explicit numeric `order` in frontmatter to
+			// control placement (lower numbers come first). If `order` is missing
+			// for one or both items, treat missing as Infinity so explicit orders
+			// come before unspecified ones.
+			const orderA = typeof a.data.order === 'number' ? a.data.order : Infinity;
+			const orderB = typeof b.data.order === 'number' ? b.data.order : Infinity;
+
+			if (orderA < orderB) return -1;
+			if (orderA > orderB) return 1;
+
+			// Fallback: alphabetical by title
 			const titleA = a.data.title.toUpperCase();
 			const titleB = b.data.title.toUpperCase();
 
