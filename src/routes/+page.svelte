@@ -14,7 +14,7 @@
 
 <section class="safe-area hero">
 	<h1>
-		Il MEI - Meeting Etichette Indipendenti è una manifestazione musicale che raduna 
+		Il <span style="font-weight: 700; font-style: italic;">MEI - Meeting Etichette Indipendenti</span> è una manifestazione musicale che raduna 
 		le principali produzioni discografiche indipendenti ed emergenti italiane a Faenza.
 		L’evento si svolge durante la prima settimana di ottobre, tutti gli anni, dal 1995.
 	</h1>

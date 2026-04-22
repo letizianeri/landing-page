@@ -3,14 +3,11 @@
 </script>
 
 <header class="safe-area">
-	<Link title="W–D" ref="/" />
+	<Link class="brand" title="Mei Meeting" ref="/" />
 
 	<nav>
-		<Link title="About" ref="/about" />
-		<Link
-			title="@webdesign_ddc"
-			ref="https://www.instagram.com/webdesign_ddc"
-		/>
+		<Link class="nav-link" title="Home" ref="/" />
+		<Link class="nav-link" title="Blog" ref="/" />
 	</nav>
 </header>
 
@@ -28,5 +25,19 @@
 		display: flex;
 		gap: var(--size-6);
 		align-items: center;
+	}
+
+	/* Typography variants for header links */
+	:global(.brand) {
+		font-family: "Open Sans Condensed", var(--font-primary);
+		font-weight: 800; /* ExtraBold */
+		letter-spacing: -0.01em;
+		font-size: 2rem;
+	}
+
+	:global(.nav-link) {
+		font-family: var(--font-primary);
+		font-weight: 600; /* Semibold */
+		font-size: 1.5rem;
 	}
 </style>

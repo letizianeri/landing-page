@@ -7,10 +7,13 @@
 		children = null,
 		leadingIcon = null,
 		trailingIcon = null,
+		class: className = "",
 	} = $props();
+
+	// other attributes (e.g. id, target, rel) are available in $$restProps automatically
 </script>
 
-<a href={ref}>
+<a href={ref} class={className}>
 	{#if children}
 		{@render children()}
 	{:else}

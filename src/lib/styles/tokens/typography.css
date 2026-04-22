@@ -3,3 +3,9 @@
 
 	font-feature-settings: "liga" 1, "calt" 1;
 }
+
+html, body {
+	font-family: var(--font-primary);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
