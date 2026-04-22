@@ -57,6 +57,7 @@
 		position: relative;
 		aspect-ratio: 16/10;
 		overflow: hidden;
+		border-radius: var(--size-3);
 
 		.veil {
 			position: absolute;
