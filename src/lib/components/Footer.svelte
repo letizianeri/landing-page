@@ -1,9 +1,9 @@
 <script>
-	import polimi from "$lib/assets/polimi.png";
+	import logo from "$lib/assets/mei-logo2.png";
 </script>
 
 <footer class="safe-area">
-	<img src={polimi} alt="Politecnico di Milano" />
+	<img src={logo} alt="MEI - Meeting Etichette Indipendenti" />
 </footer>
 
 <style>
