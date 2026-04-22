@@ -64,7 +64,8 @@
 		padding-block: var(--size-11);
 
 		h1 {
-			font-size: var(--size-7);
+			/* fluid font-size: min size, responsive vw, max token */
+			font-size: clamp(1.6rem, 4.5vw, var(--size-7));
 			max-width: 35ch;
 		}
 	}
@@ -81,5 +82,28 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: var(--size-5);
+	}
+
+	/* Responsive: switch projects grid to single column on narrow screens */
+	@media (max-width: 768px) {
+		.projects {
+			grid-template-columns: 1fr;
+			gap: var(--size-4);
+			padding-block: var(--size-5);
+		}
+
+		.filters {
+			gap: var(--size-3);
+		}
+	}
+
+	@media (max-width: 480px) {
+		.hero h1 {
+			font-size: var(--size-5);
+		}
+
+		.filters {
+			gap: var(--size-2);
+		}
 	}
 </style>

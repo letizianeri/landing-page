@@ -59,6 +59,9 @@
 		overflow: hidden;
 		border-radius: var(--size-3);
 
+		/* allow the thumbnail to shrink below content size when grid columns narrow */
+		min-height: 0;
+
 		.veil {
 			position: absolute;
 			width: 100%;
@@ -71,6 +74,10 @@
 		}
 
 		img {
+			/* absolutely position the image to fully cover the aspect-ratio box
+			   and avoid intrinsic image dimensions forcing a fixed height */
+			position: absolute;
+			inset: 0;
 			width: 100%;
 			height: 100%;
 			object-fit: cover;

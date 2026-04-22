@@ -26,6 +26,23 @@
 		}
 	}
 
+	/* Reduce filter size and padding on smaller screens */
+	@media (max-width: 768px) {
+		label {
+			font-size: var(--size-6);
+			padding-block: var(--size-2);
+			padding-inline: var(--size-3);
+		}
+	}
+
+	@media (max-width: 480px) {
+		label {
+			font-size: var(--size-5);
+			padding-block: var(--size-1);
+			padding-inline: var(--size-3);
+		}
+	}
+
 	input {
 		display: none;
 	}
