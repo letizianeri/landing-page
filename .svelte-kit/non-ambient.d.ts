@@ -38,6 +38,6 @@ declare module "$app/types" {
 		};
 		Pathname(): "/";
 		ResolvedPathname(): `${"" | `/${string}`}${ReturnType<AppTypes['Pathname']>}`;
-		Asset(): "/images/projects/2024/spakka.png" | "/images/projects/2025/flatfade.png" | "/images/projects/2025/unmasqed.png" | "/robots.txt" | string & {};
+		Asset(): "/.DS_Store" | "/images/.DS_Store" | "/images/artists/.DS_Store" | "/images/artists/2023/dolcenera.jpg" | "/images/artists/2023/elisa.jpg" | "/images/artists/2023/lucio-corsi.jpg" | "/images/artists/2023/manuel-agnelli.jpg" | "/images/artists/2024/celeb-car-crash.jpg" | "/images/artists/2024/fugue.jpg" | "/images/artists/2024/namida.jpg" | "/images/artists/2024/stella-merano.jpg" | "/images/artists/2025/18k.png" | "/images/artists/2025/cristian-albani.png" | "/images/artists/2025/francesco-picciano.jpg" | "/images/artists/2025/giulia-mei.jpg" | "/images/projects/.DS_Store" | "/images/projects/2024/spakka.png" | "/images/projects/2025/.DS_Store" | "/images/projects/2025/giulia-mei.jpg.webp" | "/images/projects/2025/unmasqed.png" | "/robots.txt" | string & {};
 	}
 }
