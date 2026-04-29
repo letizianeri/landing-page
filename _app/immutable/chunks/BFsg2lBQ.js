@@ -1,0 +1,1 @@
+import"./C381c4q8.js";import"./DEDqjojZ.js";var e={title:`18K, Ed Mars e 4997`,year:2025,order:4,link:`https://open.spotify.com/intl-it/artist/5PVCzkHVhVLRLadPdJUdXB?si=Gk59R_r3Sq6as5d8gNmzwg`,thumbnail:`/images/artists/2025/18k.png`},{title:t,year:n,order:r,link:i,thumbnail:a}=e;function o(e){}export{o as default,e as metadata};

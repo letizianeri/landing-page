@@ -1,0 +1,1 @@
+import"./C381c4q8.js";import"./DEDqjojZ.js";var e={title:`NAMIDA`,year:2024,order:4,link:`https://open.spotify.com/intl-it/artist/4duGFkhJRa85BPJowuoFDv?si=8Tf14dmuTrGACvhLMnXI7A`,thumbnail:`/images/artists/2024/namida.png`},{title:t,year:n,order:r,link:i,thumbnail:a}=e;function o(e){}export{o as default,e as metadata};

@@ -1,0 +1,1 @@
+import"./C381c4q8.js";import"./DEDqjojZ.js";var e={title:`Cristian Albani`,year:2025,order:3,link:`https://open.spotify.com/intl-it/artist/5xlTS2s0f6vBDnFmoffrqC?si=oOvJ0QpARKOPZjre5K5OTg`,thumbnail:`/images/artists/2025/cristian-albani.png`},{title:t,year:n,order:r,link:i,thumbnail:a}=e;function o(e){}export{o as default,e as metadata};

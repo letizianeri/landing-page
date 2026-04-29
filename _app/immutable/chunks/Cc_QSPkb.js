@@ -1,0 +1,1 @@
+import"./C381c4q8.js";import"./DEDqjojZ.js";var e={title:`Francesco Picciano`,year:2025,order:2,link:`https://open.spotify.com/`,thumbnail:`/images/artists/2025/francesco-picciano.png`},{title:t,year:n,order:r,link:i,thumbnail:a}=e;function o(e){}export{o as default,e as metadata};

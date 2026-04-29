@@ -1,0 +1,1 @@
+import"./C381c4q8.js";import"./DEDqjojZ.js";var e={title:`Celeb Car Crash`,year:2024,order:1,link:`https://open.spotify.com/intl-it/artist/5PDu9qnfm6iuaUz8USF5zY?si=Nj4oVjpVQ7ubu3epQohhRg`,thumbnail:`/images/artists/2024/celeb-car-crash.jpg`},{title:t,year:n,order:r,link:i,thumbnail:a}=e;function o(e){}export{o as default,e as metadata};

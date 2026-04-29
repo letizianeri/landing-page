@@ -1,0 +1,1 @@
+import"./C381c4q8.js";import"./DEDqjojZ.js";var e={title:`Manuel Agnelli`,year:2023,order:1,link:`https://open.spotify.com/intl-it/artist/1fLNnD2YIhtUR8VrX68As4?si=kd3J8sjpRvqc5oR6odX2fQ`,thumbnail:`/images/artists/2023/manuel-agnelli.jpg`},{title:t,year:n,order:r,link:i,thumbnail:a}=e;function o(e){}export{o as default,e as metadata};

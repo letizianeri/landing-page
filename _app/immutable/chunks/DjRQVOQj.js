@@ -1,0 +1,1 @@
+import"./C381c4q8.js";import"./DEDqjojZ.js";var e={title:`Dolcenera`,year:2023,order:3,link:`https://open.spotify.com/intl-it/artist/7lkfsloQGm2Z9S9kbmIcFU?si=vWihzHSAQ_unjeL_GGDDcA`,thumbnail:`/images/artists/2023/dolcenera.jpg`},{title:t,year:n,order:r,link:i,thumbnail:a}=e;function o(e){}export{o as default,e as metadata};
